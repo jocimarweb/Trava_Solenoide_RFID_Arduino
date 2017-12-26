@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_vertical|top"
+    android:orientation="vertical"
+    tools:context="ifsp.tcc.jocimar.portaautomatica.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnConectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:elevation="3dp"
+        android:text="Conectar"
+        android:textColorHint="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnDesconectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:elevation="3dp"
+        android:text="Desconectar"
+        android:textColorHint="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:elevation="3dp"
+        android:text="Capturar Log"
+        android:textColorHint="@android:color/black" />
+
+    <Button
+        android:id="@+id/btnVisualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:elevation="3dp"
+        android:text="Visualisar"
+        android:textColorHint="@android:color/black" />
+
+</LinearLayout>
+
+
